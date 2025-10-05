@@ -1,4 +1,4 @@
 {
-  "builds": [{ "src": "fastapi/index.py", "use": "@vercel/python" }],
+  "builds": [{ "src": "/fastapi/index.py", "use": "@vercel/python" }],
   "routes": [{ "src": "/(.*)", "dest": "fasapi/index.py" }]
 }
